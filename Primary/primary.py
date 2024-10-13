@@ -1,4 +1,3 @@
-from http.client import responses
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import requests
 import json
