@@ -24,7 +24,8 @@ Get data from the second Secondary running on port 9002
 ![image](https://github.com/user-attachments/assets/63c7b532-2795-4240-9f8f-00cbe99f2ffd)
 
 ## Entire look
-![image](https://github.com/user-attachments/assets/ab7d9e51-0529-4ed7-b06d-1c4c4e8eff6a)
+![image](https://github.com/user-attachments/assets/d73cf3f4-cdae-474f-9e3c-060ecb0d7c1c)
+
 
 
 
