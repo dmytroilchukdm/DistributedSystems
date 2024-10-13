@@ -1,0 +1,32 @@
+services:
+  primary:
+    container_name: primary
+    build:
+      context: ./Primary
+      dockerfile: Dockerfile
+    ports:
+      - "9000:9000"
+
+  secondary1:
+    container_name: happy_secondary
+    build:
+      context: ./Secondary
+      dockerfile: Dockerfile
+    ports:
+      - "9001:9001"
+
+  secondary2:
+    container_name: carefree_secondary
+    build:
+      context: ./Secondary
+      dockerfile: Dockerfile
+    ports:
+      - "9002:9002"
+    command: ["python", "secondary.py", "9002"]
+
+
+
+
+
+
+
