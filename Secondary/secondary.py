@@ -4,7 +4,7 @@ import sys
 import time
 
 class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
-    messageList = ["Inititial secondary"]
+    messageList = []
     def do_GET(self, content_length=None):
         self.send_response(200)
         self.send_header("Content-type","application/json")
